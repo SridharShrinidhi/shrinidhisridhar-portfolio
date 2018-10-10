@@ -19,7 +19,7 @@ body {
   min-width: 300px;
 }
 
-.card-no-border {
+.no-border {
   display: inline-block;
   max-width: 40vw;
   min-width: 300px;
@@ -77,4 +77,10 @@ border-color: #cc6060;
 .btn,
 .btn-ghost {
   text-decoration: none;
+}
+
+.image {
+  display: inline-block;
+  max-width: 40vw;
+  min-width: 300px;
 }
