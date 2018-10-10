@@ -10,28 +10,19 @@ body {
   white-space: nowrap;
 }
 
-.box {
-  display: inline-block;
-  background-color: #E5D8D8;
-  height: 200px;
-  position: absolute;
-}
-
 .card {
   display: inline-block;
   border-right: 1px solid #000;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  max-width: 50vw;
+  max-width: 40vw;
   min-width: 300px;
-  height: 65vh;
 }
 
 .card-no-border {
   display: inline-block;
-  max-width: 50vw;
+  max-width: 40vw;
   min-width: 300px;
-  height: 65vh;
 }
 
 p {
@@ -72,4 +63,18 @@ a:hover {
     text-align: right;
   }
 
+}
+
+main {
+  height: 70vh;
+}
+
+.btn-ghost:hover {
+background-color: #cc6060;
+border-color: #cc6060;
+}
+
+.btn,
+.btn-ghost {
+  text-decoration: none;
 }
