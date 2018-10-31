@@ -1,0 +1,15 @@
+- number: 01
+  category: App design, UX design
+  name: Influenza app
+  image: "../../images/influenza-1.png"
+  text: An app designed for beauty consumers to buy products based on reviews by fellow users.
+- number: 02
+  category: App design, UX design
+  name: Influenza app
+  image: ../images/influenza-1.png
+  text: An app designed for beauty consumers to buy products based on reviews by fellow users.
+- number: 03
+  category: App design, UX design
+  name: Influenza app
+  image: ../images/influenza-1.png
+  text: An app designed for beauty consumers to buy products based on reviews by fellow users.
