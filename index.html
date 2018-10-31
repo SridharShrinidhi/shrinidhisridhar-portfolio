@@ -1,3 +1,12 @@
 ---
 layout: default
 ---
+
+<section id="work" class="body ib">
+
+  {% for work in site.data.homepage %}
+  {% include home-grid.html data=work %}
+  {% endfor %}
+
+
+</section>
