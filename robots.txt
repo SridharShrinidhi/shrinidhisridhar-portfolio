@@ -1,0 +1,6 @@
+# www.robotstxt.org
+
+Sitemap: http://shrinidhi.design/sitemap.xml
+
+User-Agent: *
+Disallow:

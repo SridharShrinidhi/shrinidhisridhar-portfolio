@@ -1,0 +1,16 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Shrinidhi Sridhar <reachme@shrinidhi.design>
+Site: http://shrinidhi.design
+GitHub: https://github.com/SridharShrinidhi
+Twitter: @shrinidhi30
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+- Thomas J.Bradley
+  For helping me understand and implement crazy ideas
