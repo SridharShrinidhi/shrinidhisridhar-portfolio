@@ -1,3 +1,12 @@
 ---
 layout: default
+Title: Scrub Inspired Rebrand · Portfolio
 ---
+
+<body>
+
+  {% for case in site.data.casestudy %}
+  {% include case-study.html data=case %}
+  {% endfor %}
+
+</body>
