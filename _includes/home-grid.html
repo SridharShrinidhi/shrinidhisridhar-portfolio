@@ -1,7 +1,7 @@
-<div itemscope itemtype="http://schema.org/Portfolio" class="ib push card bg-image">
-      <a itemprop="caseStudy" itemscope itemtype="http://schema.org/Casestudy" href="case-study-1.html">
-        <h2 itemprop="chapterNumber" class="tera gutter push-1-2">{{include.data.number}}</h2>
-        <p itemprop="category" class="micro gutter push-none">{{include.data.category}}</p>
+<div itemscope itemtype="http://schema.org/Portfolio" class="ib push card {{include.data.bgColor}} pad-t-1-2">
+      <a itemprop="caseStudy" itemscope itemtype="http://schema.org/Casestudy" href="{{site.basurl}}{{include.data.url}}">
+        <h2 itemprop="chapterNumber" class="kilo gutter push-1-2">{{include.data.number}}</h2>
+        <p itemprop="category" class="nano gutter push-none">{{include.data.category}}</p>
         <h3 itemprop="name" class="giga bold gutter push-1-2">{{include.data.name}}</h3>
         <div class="image">
           <img itemprop="image" class="img-flex push-1-2 img" src={{include.data.image}} alt="">
