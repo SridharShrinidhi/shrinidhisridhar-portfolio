@@ -13,7 +13,6 @@ main {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  height: 78vh;
 }
 
 p {
@@ -21,11 +20,20 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-header,
+header {
+  display: inline-block;
+  width: 100vw;
+  height: 12vh;
+  z-index: 100;
+  /* background-color: #f0f0f0; */
+}
+
 footer {
   display: inline-block;
   width: 100vw;
-  background-color: #f0f0f0;
+  height: 10vh;
+  z-index: 100;
+  /* background-color: #f0f0f0; */
 }
 
 a {
@@ -40,6 +48,33 @@ a:focus {
   color: #000;
 }
 
+.bg-blue {
+  background-color: #e1f6f9;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.img {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card p,
+.card h2,
+.card h3 {
+  color: black;
+}
+
+.bg {
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 0 8px 8px 0;
+  z-index: 10;
+  width: 400px;
+}
+
 @media only screen and (min-width: 20em) {
 
   h1,
@@ -48,8 +83,27 @@ a:focus {
   }
 
   .card {
-    width: 90vw;
-    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 78vh;
+    width: 60vw;
+  }
+
+  .img1 {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url("../images/scrub-label.jpg");
+  }
+
+  .img2 {
+    background-image: url("../images/food-app-04.png");
+  }
+
+  .img3 {
+    background-image: url("../images/anna.jpg");
+  }
+
+  .img4 {
+    background-image: url("../images/influenza-1.png");
   }
 
 }
@@ -64,9 +118,8 @@ a:focus {
     text-align: right;
   }
 
-  .card {
-    width: 50vw;
-    height: 80vh;
-  }
+}
 
+::-webkit-scrollbar {
+    display: none;
 }

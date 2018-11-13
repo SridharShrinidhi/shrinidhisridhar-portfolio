@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<body>
+  <section class="body ib">
+    <ul class="list-group-inline pad-t">
+      <li class="list-group-item">
+        <div itemscope itemtype="http://schema.org/Portfolio" class="ib push card gutter">
+          <h3 itemprop="heading" class="tera wrap push-1-2">{{page.heading1}}</h3>
+          <p itemprop="description" class="micro">{{page.subHeading1}}</p>
+          <div class="embed embed-{{page.embedSize1}}">
+            <img itemprop="image" class="embed-item img-flex push-1-2 img" src={{page.image1}} alt="{{page.imageDescription1}}">
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div itemscope itemtype="http://schema.org/Portfolio" class="ib push card gutter">
+          <figure>
+            <div class="embed embed-{{page.embedSize2}}">
+              <img itemprop="image" class="embed-item img-flex push-1-2 img" src={{page.image2}} alt="{{page.imageDescription2}}">
+            </div>
+            <figcaption itemprop="caption" class="nano italic">{{include.data.figCaption2}}</figcaption>
+          </figure>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div itemscope itemtype="http://schema.org/Portfolio" class="ib push card gutter">
+          <h3 itemprop="heading" class="tera wrap push-1-2">{{page.heading2}}</h3>
+          <p itemprop="description" class="micro">{{page.subHeading2}}</p>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div itemscope itemtype="http://schema.org/Portfolio" class="ib push card gutter">
+          <figure>
+            <div class="embed embed-{{page.embedSize3}}">
+              <img itemprop="image" class="embed-item img-flex push-1-2 img" src={{page.image3}} alt="{{page.imageDescription3}}">
+            </div>
+            <figcaption itemprop="caption" class="nano italic">{{include.data.figCaption3}}</figcaption>
+          </figure>
+        </div>
+      </li>
+    </ul>
+
+  </section>
+</body>

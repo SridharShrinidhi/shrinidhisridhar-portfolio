@@ -1,32 +1,38 @@
+- name: Designer.
+  text: Branding | Web design | UX design
 - bgColor: cs-1
   number: 1/4
   category: branding | web design
   name: Scrub Inspired
   image: ../images/scrub-label.jpg
   text: An app designed for beauty consumers to buy products based on reviews by fellow users.
-  url:
+  url: /scrub-inspired
   imageDescription: Bowl holding scrub jars with Scrub Inspired labels.
+  imgClass: img1
 - bgColor: cs-1
   number: 2/4
-  category: app design | ux design
-  name: Influenza
-  image: ../images/influenza-1.png
-  text: An app designed for beauty consumers to buy products based on reviews by fellow users.
-  url:
-  imageDescription: Layout of Influenza app screens
+  category: branding | app design | ux design
+  name: Recipe app
+  image: ../images/food-app-04.png
+  text: An app designed for meal planners with scheduling system to share with roommates.
+  url: /recipe-app
+  imageDescription: Layout of Recipe app screens
+  imgClass: img2
 - bgColor: cs-1
   number: 3/4
   category: web design | shopify theme
   name: anna belangér
   image: ../images/anna.jpg
   text: Website re-design for Anna Bélanger & Associates. The website uses Shopify's theme.
-  url:
+  url: /anna-belanger
   imageDescription: Layout of Influenza app screens
+  imgClass: img3
 - bgColor: cs-1
   number: 4/4
   category: app design | ux design
-  name: Recipe app
-  image: ../images/food-app-04.png
-  text: An app designed for meal planners with scheduling system to share with roommates.
-  url:
-  imageDescription: Layout of Recipe app screens
+  name: Influenza
+  image: ../images/influenza-1.png
+  text: An app designed for beauty consumers to buy products based on reviews by fellow users.
+  url: /influenza
+  imageDescription: Layout of Influenza app screens
+  imgClass: img4

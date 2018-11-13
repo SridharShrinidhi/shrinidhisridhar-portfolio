@@ -4,10 +4,9 @@ title: Shrinidhi Sridhar · Designer based in Ottawa, Canada.
 ---
 
 <section id="work" class="body ib">
-
-  {% for work in site.data.homepage %}
-  {% include home-grid.html data=work %}
-  {% endfor %}
-
-
+  <ul class="list-group-inline push-none">
+    {% for work in site.data.homepage %}
+    {% include home-grid.html data=work %}
+    {% endfor %}
+  </ul>
 </section>
