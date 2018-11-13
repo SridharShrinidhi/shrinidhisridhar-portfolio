@@ -70,9 +70,30 @@ a:focus {
 .bg {
   background-color: white;
   border: 1px solid transparent;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 0 8px 0;
   z-index: 10;
   width: 400px;
+}
+
+.scrub-img1 {
+  background-image: url("../images/scrub-prep-01.jpg");
+}
+
+.scrub-img2 {
+  background-image: url("../images/scrub-inspired-store-sign.jpg");
+}
+
+.scrub-img3 {
+  background-image: url("../images/scrub-mockup.jpg");
+}
+
+.transparent {
+  color: #fff;
+}
+
+.image {
+  height: 74vh;
+  width: 50vw;
 }
 
 @media only screen and (min-width: 20em) {
@@ -87,15 +108,15 @@ a:focus {
     background-size: cover;
     background-repeat: no-repeat;
     height: 78vh;
-    width: 60vw;
+    width: 80vw;
   }
 
   .img1 {
-    background-image: linear-gradient(to top, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url("../images/scrub-label.jpg");
+    background-image: url("../images/scrub-label.jpg");
   }
 
   .img2 {
-    background-image: url("../images/food-app-04.png");
+    background-image: url("../images/home-06.png");
   }
 
   .img3 {
@@ -103,7 +124,11 @@ a:focus {
   }
 
   .img4 {
-    background-image: url("../images/influenza-1.png");
+    background-image: url("../images/home-07.png");
+  }
+
+  header .logo {
+    text-align: center;
   }
 
 }
@@ -116,6 +141,18 @@ a:focus {
 
   .nav {
     text-align: right;
+  }
+
+  header .logo {
+    text-align: left;
+  }
+
+  .card {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 78vh;
+    width: 50vw;
   }
 
 }
