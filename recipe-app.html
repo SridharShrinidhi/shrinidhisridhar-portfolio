@@ -17,39 +17,22 @@ process3:
 img3: ../images/recipe-share.png
 ---
 
-<body>
+<body class="flex-body">
 
   <h2 class="gutter mega">{{page.title}}</h2>
-  <div class="inner-card ib relative">
-    <h2 class="wrapper gutter pad-t-2 kilo push-none">{{page.heading1}}</h2>
-    <p class="wrapper gutter pad-t-2 milli push-none">{{page.subHeading2}}</p>
-    <p class="wrapper gutter pad-t milli push-none">{{page.process1}}</p>
-    <p class="wrapper gutter pad-t milli push-none">{{page.text1}}</p>
+  <section class="flex-card">
+  <div class="card--content">
+    <h2 class="wrapper pad-t-2 kilo relative push-none">{{page.heading1}}</h2>
+    <p class="wrapper pad-t-2 milli relative push-none">{{page.subHeading1}}</p>
+    <p class="wrapper pad-t milli relative push-none">{{page.process1}}</p>
   </div>
+  <div class="card--content">
 
-  <div class="pad-t image-card relative ib">
-    <img class="img-flex" src="{{page.img1}}" alt="">
   </div>
+  <div class="card--content">
 
-  <div class="inner-card ib">
-    <h2 class="wrapper pad-t-2 kilo relative push-none">{{page.heading2}}</h2>
-    <p class="wrapper pad-t-2 milli relative push-none">{{page.subHeading2}}</p>
-    <p class="wrapper pad-t milli relative push-none">{{page.process2}}</p>
   </div>
-
-  <div class="pad-t image-card relative ib">
-    <img class="img-flex" src="{{page.img2}}" alt="">
-  </div>
-
-  <div class="inner-card ib">
-    <h2 class="wrapper pad-t-2 kilo relative push-none">{{page.heading3}}</h2>
-    <p class="wrapper pad-t-2 milli relative push-none">{{page.subHeading3}}</p>
-    <p class="wrapper pad-t milli relative push-none">{{page.process3}}</p>
-  </div>
-
-  <div class="pad-t image-card relative ib">
-    <img class="img-flex" src="{{page.img3}}" alt="">
-  </div>
+</section>
 
 </body>
 

@@ -89,6 +89,8 @@ a:focus {
   height: 75vh;
 }
 
+/* Flex box */
+
 @media only screen and (min-width: 20em) {
 
   h1,
@@ -124,6 +126,11 @@ a:focus {
     text-align: center;
   }
 
+  .inner-card {
+    height: 60vh;
+    width: 60vw;
+  }
+
 }
 
 @media only screen and (min-width: 36em) {
@@ -140,13 +147,9 @@ a:focus {
     text-align: left;
   }
 
-}
-
-@media only screen and (min-width: 576px) {
-
-  .wrapper {
-    margin-left: 0;
-    width: 60vw;
+  .inner-card {
+    height: 58vh;
+    width: 40vw;
   }
 
 }
@@ -155,10 +158,11 @@ a:focus {
 
   .wrapper {
     margin-left: 0;
-    width: 60vw;
+    width: 40vw;
   }
 
 }
+
 
 
 ::-webkit-scrollbar {
