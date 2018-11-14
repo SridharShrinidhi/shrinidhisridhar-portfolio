@@ -1,11 +1,12 @@
 - name: Designer.<br> Curious Thinker.
   text: Branding | Web design | UX design
+  imgClass: mainimg
 - bgColor: cs-1
   number: 1/4
   category: branding | web design
   name: Scrub Inspired
   text: An app designed for beauty consumers to <br>buy products based on reviews by fellow users.
-  url: /scrub-inspired.html
+  url: /scrub-inspired
   imageDescription: Bowl holding scrub jars with Scrub Inspired labels.
   imgClass: img1
 - bgColor: cs-1
@@ -13,7 +14,7 @@
   category: branding | app design | ux design
   name: Recipe app
   text: An app designed for meal planners with <br>scheduling system to share with roommates.
-  url: /recipe-app.html
+  url: /recipe-app
   imageDescription: Layout of Recipe app screens
   imgClass: img2
 - bgColor: cs-1
@@ -21,7 +22,7 @@
   category: web design | shopify theme
   name: anna belangér
   text: Website re-design for Anna Bélanger & Associates. The website uses Shopify's theme.
-  url: /anna-belanger.html
+  url: /anna-belanger
   imageDescription: Layout of Influenza app screens
   imgClass: img3
 - bgColor: cs-1
@@ -29,6 +30,6 @@
   category: app design | ux design
   name: Influenza
   text: An app designed for beauty consumers to <br>buy products based on reviews by fellow users.
-  url: /influenza.html
+  url: /influenza
   imageDescription: Layout of Influenza app screens
   imgClass: img4

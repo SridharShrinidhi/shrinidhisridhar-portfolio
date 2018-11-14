@@ -89,6 +89,9 @@ a:focus {
   height: 75vh;
 }
 
+.max-length {
+  margin-left: 0;
+}
 /* Flex box */
 
 @media only screen and (min-width: 20em) {
@@ -102,8 +105,17 @@ a:focus {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 78vh;
+    min-height: 78vh;
     width: 80vw;
+  }
+
+  .bg-image {
+      background-image: url("../images/me-01.png");
+  }
+
+
+  .mainimg {
+    background-image: url("../images/paint-01.png");
   }
 
   .img1 {

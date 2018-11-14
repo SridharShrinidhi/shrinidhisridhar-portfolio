@@ -1,10 +1,12 @@
-<div itemscope itemtype="http://schema.org/About" class="ib push card bg-image pad-t">
-    <h3 itemprop="title" class="giga bold gutter push-1-2">{{include.data.title}}</h3>
-    <p itemprop="description" class="milli gutter push">{{include.data.text}}</p>
+<div itemscope itemtype="http://schema.org/About" class="ib push card bg-image pad-t-2">
+  <div class="pad-t-2">
+    <h3 itemprop="title" class="giga bold gutter pad-t-2 push-1-2">{{include.data.title}}</h3>
+    <p itemprop="description" class="milli gutter push max-length">{{include.data.text}}</p>
     <h3 itemprop="title" class="giga bold gutter push-none">Contact</h3>
     <div class="gutter pad-top">
       <p class="kilo push-1-2">Want to collaborate and create amazing projects?</p>
       <a itemprop="email" class="milli btn btn-ghost " href="mailto:reachme@shrinidhi.design">{{include.data.email}}</a>
     </div>
+  </div>
 
 </div>
