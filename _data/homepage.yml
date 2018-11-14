@@ -5,7 +5,7 @@
   category: branding | web design
   name: Scrub Inspired
   text: An app designed for beauty consumers to <br>buy products based on reviews by fellow users.
-  url: /scrub-inspired
+  url: /scrub-inspired.html
   imageDescription: Bowl holding scrub jars with Scrub Inspired labels.
   imgClass: img1
 - bgColor: cs-1
@@ -13,7 +13,7 @@
   category: branding | app design | ux design
   name: Recipe app
   text: An app designed for meal planners with <br>scheduling system to share with roommates.
-  url: /recipe-app
+  url: /recipe-app.html
   imageDescription: Layout of Recipe app screens
   imgClass: img2
 - bgColor: cs-1
@@ -21,7 +21,7 @@
   category: web design | shopify theme
   name: anna belangér
   text: Website re-design for Anna Bélanger & Associates. The website uses Shopify's theme.
-  url: /anna-belanger
+  url: /anna-belanger.html
   imageDescription: Layout of Influenza app screens
   imgClass: img3
 - bgColor: cs-1
@@ -29,6 +29,6 @@
   category: app design | ux design
   name: Influenza
   text: An app designed for beauty consumers to <br>buy products based on reviews by fellow users.
-  url: /influenza
+  url: /influenza.html
   imageDescription: Layout of Influenza app screens
   imgClass: img4
