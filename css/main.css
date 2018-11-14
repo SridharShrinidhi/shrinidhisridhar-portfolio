@@ -75,18 +75,6 @@ a:focus {
   width: 400px;
 }
 
-.scrub-img1 {
-  background-image: url("../images/scrub-prep-01.jpg");
-}
-
-.scrub-img2 {
-  background-image: url("../images/scrub-inspired-store-sign.jpg");
-}
-
-.scrub-img3 {
-  background-image: url("../images/scrub-mockup.jpg");
-}
-
 .transparent {
   color: #fff;
 }
@@ -94,6 +82,11 @@ a:focus {
 .image {
   height: 74vh;
   width: 50vw;
+}
+
+.image-1 {
+  background-image: url("../images/scrub-image-01.png");
+  height: 75vh;
 }
 
 @media only screen and (min-width: 20em) {
@@ -147,15 +140,26 @@ a:focus {
     text-align: left;
   }
 
-  .card {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 78vh;
-    width: 50vw;
+}
+
+@media only screen and (min-width: 576px) {
+
+  .wrapper {
+    margin-left: 0;
+    width: 60vw;
   }
 
 }
+
+@media only screen and (min-width: 576px) {
+
+  .wrapper {
+    margin-left: 0;
+    width: 60vw;
+  }
+
+}
+
 
 ::-webkit-scrollbar {
     display: none;
