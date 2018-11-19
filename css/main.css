@@ -2,7 +2,8 @@ html {
   font-family: "Work Sans", sans-serif;
   background-color: #fff;
   color: #000;
-  /* background-color: #f4decb; */
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body {
@@ -92,7 +93,38 @@ a:focus {
 .max-length {
   margin-left: 0;
 }
-/* Flex box */
+
+
+.arrow {
+  animation: jump .75s linear infinite;
+  position: absolute;
+  top: 70%;
+  left: 80%;
+}
+
+@keyframes jump {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(40px);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+
+  75% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(0em);
+  }
+
+}
 
 @media only screen and (min-width: 20em) {
 
@@ -143,6 +175,11 @@ a:focus {
     width: 60vw;
   }
 
+
+  .arrow {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 36em) {
@@ -162,6 +199,10 @@ a:focus {
   .inner-card {
     height: 58vh;
     width: 40vw;
+  }
+
+  .arrow {
+    display: block;
   }
 
 }
