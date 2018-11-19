@@ -10,6 +10,19 @@ body {
   overflow-y: hidden;
 }
 
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links li a {
+  color: white;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
 main {
   overflow-x: scroll;
   overflow-y: hidden;
@@ -171,13 +184,7 @@ a:focus {
   }
 
   .inner-card {
-    height: 60vh;
-    width: 60vw;
-  }
-
-
-  .arrow {
-    display: none;
+    width: 80vw;
   }
 
 }
@@ -195,12 +202,6 @@ a:focus {
   header .logo {
     text-align: left;
   }
-
-  .inner-card {
-    height: 58vh;
-    width: 40vw;
-  }
-
   .arrow {
     display: block;
   }
@@ -211,12 +212,11 @@ a:focus {
 
   .wrapper {
     margin-left: 0;
-    width: 40vw;
+    width: 400px;
+    margin-right: 0;
   }
 
 }
-
-
 
 ::-webkit-scrollbar {
     display: none;

@@ -1,7 +1,7 @@
 <li itemscope itemtype="http://schema.org/ItemListOrderType" class="list-group-item">
   <div itemscope itemtype="http://schema.org/CreativeWork" class="ib card {{include.data.imgClass}} {{include.data.bgColor}}">
     <div class="bg">
-      <a itemprop="url" itemscope itemtype="http://schema.org/ImageObject" href="{{site.baseurl}}{{include.data.url}}">
+      <a aria-label="Read more about {{iclude.data.ariaLabel}}" itemprop="url" itemscope itemtype="http://schema.org/ImageObject" href="{{site.baseurl}}{{include.data.url}}">
         <h2 itemprop="chapterNumber" class="kilo gutter push-1-2 pad-t">{{include.data.number}}</h2>
         <p itemprop="category" class="nano gutter push-none">{{include.data.category}}</p>
         <h3 itemprop="name" class="mega bold gutter push-1-2">{{include.data.name}}</h3>
