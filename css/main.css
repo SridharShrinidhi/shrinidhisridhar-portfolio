@@ -24,7 +24,7 @@ body {
 }
 
 main {
-  overflow: scroll;
+  overflow-y: hidden;
   white-space: nowrap;
 }
 
