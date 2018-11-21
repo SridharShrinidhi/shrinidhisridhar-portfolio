@@ -39,7 +39,6 @@ header {
   width: 100vw;
   height: 12vh;
   z-index: 100;
-  /* background-color: #f0f0f0; */
 }
 
 footer {
@@ -47,7 +46,6 @@ footer {
   width: 100vw;
   height: 10vh;
   z-index: 100;
-  /* background-color: #f0f0f0; */
 }
 
 a {
@@ -107,13 +105,13 @@ a:focus {
   margin-left: 0;
 }
 
-
 .arrow {
   animation: jump .75s linear infinite;
   position: absolute;
   top: 70%;
-  left: 80%;
+  left: 85%;
 }
+
 
 @keyframes jump {
 
@@ -158,7 +156,6 @@ a:focus {
       background-image: url("../images/me-01.png");
   }
 
-
   .mainimg {
     background-image: url("../images/paint-01.png");
   }
@@ -181,10 +178,6 @@ a:focus {
 
   header .logo {
     text-align: center;
-  }
-
-  .inner-card {
-    width: 80vw;
   }
 
 }
