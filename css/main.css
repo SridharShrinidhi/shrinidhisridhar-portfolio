@@ -24,7 +24,7 @@ body {
 }
 
 .crosshair {
-  cursor: url("../images/logo.svg"), auto;
+  cursor: url("../images/logo.cur"), auto;
 }
 
 main {
@@ -70,8 +70,7 @@ a {
 a:hover,
 a:visited,
 a:focus {
-  text-decoration: none;
-  color: #000;
+  outline: 1px solid #a7a7a7;
 }
 
 .bg-blue {
@@ -145,6 +144,9 @@ a:focus {
   display: none;
 }
 
+a:focus {
+
+}
 @keyframes jump {
 
   0% {
