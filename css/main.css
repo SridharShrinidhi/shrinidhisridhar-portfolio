@@ -28,6 +28,15 @@ main {
   white-space: nowrap;
 }
 
+.grey {
+  color: #6b6b6b;
+}
+
+a {
+  white-space: normal;
+  font-family: "Work Sans", sans-serif;
+}
+
 p {
   white-space: normal;
   font-family: "Open Sans", sans-serif;
@@ -89,6 +98,11 @@ a:focus {
 .case-study-card {
   position: absolute;
   top: -6em;
+}
+
+.extra-projects {
+  height: 40vh;
+  width: 40vw;
 }
 
 .transparent {

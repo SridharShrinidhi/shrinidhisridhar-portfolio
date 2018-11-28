@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<body>
+  {% for work in site.data.extra-projects %}
+  {% include extra-projects.html data=work %}
+  {% endfor %}
+</body>
