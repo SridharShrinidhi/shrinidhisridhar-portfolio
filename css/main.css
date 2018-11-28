@@ -192,6 +192,11 @@ a:focus {
   .btn {
     border: 1px solid #4d4d4d;
     border-radius: 2px;
+    background-color: #fff;
+  }
+
+  a:hover {
+    outline: none;
   }
 
   span {
