@@ -88,7 +88,7 @@ a:focus {
 
 .case-study-card {
   position: absolute;
-  top: -7em;
+  top: -6em;
 }
 
 .transparent {
@@ -116,6 +116,14 @@ a:focus {
   left: 85%;
 }
 
+.project-footer {
+  position: absolute;
+  bottom: 2%;
+}
+
+.footer {
+  display: none;
+}
 
 @keyframes jump {
 
@@ -165,7 +173,7 @@ a:focus {
   }
 
   .img1 {
-    background-image: url("../images/scrub-label.jpg");
+    background-image: url("../images/stationary.jpg");
   }
 
   .img2 {
