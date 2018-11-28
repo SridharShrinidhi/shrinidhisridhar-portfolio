@@ -45,6 +45,7 @@
     {{content}}
   </main>
 
+{% if page.url contains "about" or page.url contains "projects" or page.url == "/" %}
   <footer role="contentinfo" itemscope itemtype="http://schema.org/WPFooter" class="pad-t pad-b absolute pin-bl w-1">
     <div>
       <ul itempscope itemtype="http://schema.org/ItemListOrderType" class="list-group-inline push-none pad-b-1-4">
@@ -55,6 +56,19 @@
     </div>
     <p itemprop="copyright" class="pico gutter grey">©Designed and developed by Shrinidhi Sridhar</p>
   </footer>
+  {% else %}
+
+  <footer role="contentinfo" itemscope itemtype="http://schema.org/WPFooter" class="pad-t pad-b absolute pin-bl w-1">
+    <div>
+      <ul itempscope itemtype="http://schema.org/ItemListOrderType" class="list-group-inline push-none pad-b-1-4 text-center">
+        <li class="list-group-item"><a aria-label="Head over to the instagram page" itemprop="Url" class="gutter milli grey" href="{{site.baseurl}}/scrub-inspired">Scrub Inspired</a></li>
+        <li class="list-group-item"><a aria-label="Head over to the instagram page"  itemprop="Url" class="gutter milli grey" href="{{site.baseurl}}/recipe-app">Bluebowl Recipe App</a></li>
+        <li class="list-group-item"><a aria-label="Head over to the instagram page"  itemprop="Url" class="gutter milli grey" href="{{site.baseurl}}/anna-belanger">Anna Belanger Website Redesign</a></li>
+        <li class="list-group-item"><a aria-label="Head over to the instagram page"  itemprop="Url" class="gutter milli grey" href="{{site.baseurl}}/influenza">Influenza App</a></li>
+      </ul>
+    </div>
+  </footer>
+  {% endif %}
 
   <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
   <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js'></script>
