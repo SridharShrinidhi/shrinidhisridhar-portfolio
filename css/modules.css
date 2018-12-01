@@ -847,11 +847,6 @@ select {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Cpath fill='none' stroke='%23000' stroke-miterlimit='10' stroke-width='50' d='M49.9 130.1l50.8 50.7L206.1 75.2'/%3E%3C/svg%3E");
 }
 
-[type="checkbox"]:focus + label::before {
-  outline: 3px solid #000;
-  z-index: 1000;
-}
-
 [type="radio"] + label::before {
   content: " ";
   display: inline-block;
@@ -1101,12 +1096,12 @@ input:focus,
 textarea:focus,
 button:focus,
 select:focus {
-  outline: 3px solid #000;
+  outline: 1px solid #ecebeb;
   outline-offset: 0;
 }
 
 a:focus, [tabindex="0"]:focus {
-  outline-offset: 3px;
+  outline-offset: 1px;
 }
 
 .skip-links {
@@ -1135,7 +1130,7 @@ a:focus, [tabindex="0"]:focus {
 
 .skip-links a:focus,
 .skip-links button:focus {
-  outline-offset: 3px;
+  outline-offset: 1px;
   top: 0;
 }
 
