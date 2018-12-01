@@ -60,6 +60,7 @@ footer {
   width: 100vw;
   height: 10vh;
   z-index: 100;
+  background-color: #fff;
 }
 
 a {
@@ -212,15 +213,15 @@ a:focus {
   }
 
   .mainimg {
-    background-image: url("../images/paint-01.png");
+    background-image: url("../images/home-1.jpg");
   }
 
   .img1 {
-    background-image: url("../images/stationary.jpg");
+    background-image: url("../images/scrub-home.jpg");
   }
 
   .img2 {
-    background-image: url("../images/home-06.jpg");
+    background-image: url("../images/bluebowl-main.jpg");
   }
 
   .img3 {
