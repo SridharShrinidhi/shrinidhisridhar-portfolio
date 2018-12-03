@@ -74,7 +74,11 @@ a:focus {
 }
 
 .current {
-  text-decoration: underline;
+  border-top: 1px solid #4e4e4e;
+}
+
+.current-nav {
+  border-bottom: 1px solid #4e4e4e;
 }
 
 .bg-blue {
@@ -148,9 +152,6 @@ a:focus {
   display: none;
 }
 
-a:focus {
-
-}
 @keyframes jump {
 
   0% {
@@ -205,7 +206,7 @@ a:focus {
   }
 
   .nav a:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid #4e4e4e;
   }
 
   .bg-image {
