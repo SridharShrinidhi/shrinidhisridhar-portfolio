@@ -120,11 +120,6 @@ a:focus {
   width: 400px;
 }
 
-.extra-projects {
-  width: 40vw;
-  transform: translateY(-4%);
-}
-
 .transparent {
   color: #fff;
 }
@@ -251,6 +246,11 @@ a:focus {
     transform: translateY(-8%);
   }
 
+  .extra-projects {
+    width: 100vw;
+    transform: translateY(4%);
+  }
+
 }
 
 @media only screen and (min-width: 36em) {
@@ -286,8 +286,21 @@ a:focus {
     margin-right: 0;
   }
 
+  .extra-projects {
+    width: 60vw;
+  }
+
 }
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .extra-projects {
+    width: 40vw;
+    transform: translateY(-2%);
+  }
+
 }
