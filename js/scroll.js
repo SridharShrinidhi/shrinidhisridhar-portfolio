@@ -5,6 +5,11 @@ $(function() {
       this.scrollLeft -= event.deltaY * event.deltaFactor;
       event.preventDefault();
      }
-   });
+   })
 
-});
+     const init = function(){
+         let items = document.querySelectorAll('.bg');
+     }
+     init();
+
+   });
