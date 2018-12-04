@@ -6,6 +6,18 @@ html {
   overflow-y: hidden;
 }
 
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
 body {
   overflow-y: hidden;
 }
@@ -108,14 +120,9 @@ a:focus {
   width: 400px;
 }
 
-.case-study-card {
-  position: absolute;
-  top: -6em;
-}
-
 .extra-projects {
-  height: 40vh;
   width: 40vw;
+  transform: translateY(-4%);
 }
 
 .transparent {
@@ -202,15 +209,12 @@ a:focus {
   }
 
   span {
-    text-decoration: underline;
+    font-weight: bold;
+    border-bottom: 1px solid #4e4e4e;
   }
 
   .nav a:hover {
     border-bottom: 1px solid #4e4e4e;
-  }
-
-  .bg-image {
-      background-image: url("../images/me-01.png");
   }
 
   .mainimg {
@@ -243,6 +247,10 @@ a:focus {
     margin-right: 0;
   }
 
+  .case-study-card {
+    transform: translateY(-8%);
+  }
+
 }
 
 @media only screen and (min-width: 36em) {
@@ -260,6 +268,12 @@ a:focus {
   }
   .arrow {
     display: block;
+  }
+
+  .bg-image {
+    background-image: url("../images/me-01.png");
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
 }
