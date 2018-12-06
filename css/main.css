@@ -260,10 +260,6 @@ a:focus {
     margin-right: 0;
   }
 
-  .case-study-card {
-    transform: translateY(-8%);
-  }
-
   .extra-projects {
     width: 100vw;
     transform: translateY(4%);
@@ -292,6 +288,10 @@ a:focus {
     background-image: url("../images/me-01.png");
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .case-study-card {
+    transform: translateY(-8%);
   }
 
 }
