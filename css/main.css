@@ -118,7 +118,6 @@ a:focus {
   border-radius: 0 0 8px 0;
   z-index: 10;
   width: 400px;
-  scroll-snap-align: start;
 }
 
 .transparent {
@@ -214,8 +213,6 @@ a:focus {
     background-repeat: no-repeat;
     min-height: 78vh;
     width: 80vw;
-    scroll-snap-type: x proximity;
-    scroll-snap-points-x: repeat(100%);
   }
 
   .btn {
