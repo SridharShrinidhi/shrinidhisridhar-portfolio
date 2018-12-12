@@ -4,7 +4,7 @@
   url: /about
   ariaLabel: me
 - bgColor: cs-1
-  id: portfolio
+  link: portfolio
   number: 1/4
   category: branding | web design
   name: Scrub Inspired
