@@ -135,7 +135,7 @@ a:focus {
 }
 
 .arrow {
-  animation: jump .75s linear infinite;
+  animation: jump 1s linear infinite;
   position: absolute;
   top: 50%;
   left: 85%;
@@ -161,7 +161,7 @@ a:focus {
   }
 
   25% {
-    transform: translateX(40px);
+    transform: translateX(20px);
   }
 
   50% {
@@ -173,7 +173,7 @@ a:focus {
   }
 
   100% {
-    transform: translateX(0em);
+    transform: translateX(0);
   }
 
 }
