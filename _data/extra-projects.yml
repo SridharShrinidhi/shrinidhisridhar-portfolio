@@ -2,10 +2,13 @@
   image: ../images/rock-climbing-app.jpg
   linkUrl: https://xd.adobe.com/view/256967cf-84c3-486a-982a-594cc3edd8f1/?fullscreen
   description: An app designed for amateur indoor rock climbers. Learn the ropes, inculcate passion for the sport using the features on this app. With augmented reality incorporated in the app, indoor rock climbing has never been more easy and interesting.
+  caption: Image containing different app screens
 - projectTitle: Animal Rescue Website
   image: ../images/animal-rescue-website.png
   linkUrl: https://sridharshrinidhi.github.io/animal-rescue-website/
   description: Website re-design for an animal rescue/adoption site. The website aims to make adoption fun & inviting. With easy and responsive navigation, playful colours and typography, the website makes it a fun environment for adopters/donaters.
+  caption:  Mockup of the animal rescue website on a laptop, phone and tablet.
 - projectTitle: uLaw - Year in Review
   image: ../images/ulaw.png
   description: The target audience for uLaw SAAS service are predominently lawyers and paralegals. Working towards complete automation of the monotonous process, uLaw's year in review was designed to represent their achievements during 2017.
+  caption:  Image of a page from the PDF highlighting features and releases for the year by uLaw.
