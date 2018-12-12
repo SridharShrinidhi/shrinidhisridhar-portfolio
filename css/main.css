@@ -150,6 +150,10 @@ a:focus {
   display: none;
 }
 
+.homepage-text {
+  word-wrap: break-word;
+}
+
 @keyframes jump {
 
   0% {
@@ -207,8 +211,9 @@ a:focus {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 78vh;
-    width: 80vw;
+    min-height: 75vh;
+    max-height: 75vh;
+    width: 85vw;
   }
 
   .btn {
