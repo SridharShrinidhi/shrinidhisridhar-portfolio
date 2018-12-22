@@ -1,12 +1,18 @@
-<div itemscope itemtype="http://schema.org/About" class="ib push case-study-card pad-t-1-2 bg-image">
-  <div>
+<div itemscope itemtype="http://schema.org/About" class="ib push case-study-card pad-t-2 bg-image">
+  <div class="pad-t-2">
     <h3 itemprop="title" class="mega bold gutter pad-t-1-2 push-1-2">{{include.data.title}}</h3>
     <p itemprop="description" class="milli gutter push max-length">{{include.data.text1}}</p>
     <p itemprop="description" class="milli gutter push max-length">{{include.data.text2}}</p>
-    <h3 itemprop="title" class="mega bold gutter push-1-2">Contact</h3>
-    <div class="gutter pad-top-1-2">
-      <a aria-label="Email Shrinidhi Sridhar" itemprop="email" class="milli btn btn-ghost " href="mailto:reachme@shrinidhi.design">{{include.data.email}}</a>
-    </div>
   </div>
+</div>
 
+<div itemscope itemtype="http://schema.org/About" class="ib push case-study-card pad-t-2 bg-image margin-b">
+  <h3 itemprop="title" class="mega bold gutter push-1-2">Contact</h3>
+  <p itemprop="description" class="milli gutter push max-length">{{include.data.contactText}}</p>
+  <div class="gutter pad-top-1-2 pad-b-2">
+    <a aria-label="Email Shrinidhi Sridhar" itemprop="email" class="milli " href="mailto:reachme@shrinidhi.design">{{include.data.email}}</a>
+  </div>
+</div>
+<div class="about-arrow">
+  {% include arrow.html %}
 </div>

@@ -197,7 +197,14 @@ a:focus {
 
 .bg-colour {
   background-color: #fbe597;
+}
 
+.margin-b {
+  padding-bottom: 2em;
+}
+
+li {
+  min-width: 45px;
 }
 
 @media only screen and (min-width: 20em) {
@@ -297,6 +304,10 @@ a:focus {
 
   .case-study-card {
     transform: translateY(-8%);
+  }
+
+  .about-arrow {
+    display: none;
   }
 
 }
