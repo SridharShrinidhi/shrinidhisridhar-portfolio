@@ -1,0 +1,13 @@
+---
+layout: default
+title: Portfolio · Shrinidhi Sridhar · Designer based in Ottawa, Canada.
+meta: Designer currently based in Ottawa. I focus on UX design, web design & development, app design, branding and strategy.
+---
+
+<section id="work" class="body ib pad-t">
+  <ul class="list-group-inline push-none">
+    {% for work in site.data.portfolio %}
+    {% include home-grid.html data=work %}
+    {% endfor %}
+  </ul>
+</section>
