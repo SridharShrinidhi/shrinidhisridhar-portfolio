@@ -277,6 +277,11 @@ li {
     transform: translateY(4%);
   }
 
+  .portfolio {
+    width: 100vw;
+    transform: translateY(0);
+  }
+
 }
 
 @media only screen and (min-width: 36em) {
@@ -310,6 +315,10 @@ li {
     display: none;
   }
 
+  .portfolio {
+    transform: translateY(-16%);
+  }
+
 }
 
 @media only screen and (min-width: 576px) {
@@ -320,7 +329,8 @@ li {
     margin-right: 0;
   }
 
-  .extra-projects {
+  .extra-projects,
+  .portfolio {
     width: 60vw;
   }
 
@@ -335,6 +345,11 @@ li {
   .extra-projects {
     width: 40vw;
     transform: translateY(-2%);
+  }
+
+  .portfolio {
+    width: 40vw;
+    transform: translateY(-12%);
   }
 
 }
