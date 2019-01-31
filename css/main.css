@@ -278,6 +278,10 @@ li {
     transform: translateY(0);
   }
 
+  .text {
+    top: 2em;
+  }
+
 }
 
 @media only screen and (min-width: 36em) {
@@ -293,8 +297,13 @@ li {
   header .logo {
     text-align: left;
   }
+
   .arrow {
     display: block;
+  }
+
+  .text {
+    top: -2em;
   }
 
   .bg-image {
