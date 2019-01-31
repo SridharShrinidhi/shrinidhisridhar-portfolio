@@ -179,10 +179,6 @@ a:focus {
 }
 
 .oops-image {
-  /* background-image: url("/images/paint-me-colour-01.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover; */
   width: 80vw;
   height: 50vh;
 }
@@ -221,7 +217,6 @@ li {
     min-height: 75vh;
     max-height: 75vh;
     width: 85vw;
-    top: 0;
   }
 
   .btn {
