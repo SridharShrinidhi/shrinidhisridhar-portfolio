@@ -221,6 +221,7 @@ li {
     min-height: 75vh;
     max-height: 75vh;
     width: 85vw;
+    top: 0;
   }
 
   .btn {
@@ -305,6 +306,10 @@ li {
     background-image: url("../images/me-01.png");
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .card {
+    top: 22em;
   }
 
   .case-study-card {
